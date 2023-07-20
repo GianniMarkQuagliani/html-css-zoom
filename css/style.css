@@ -23,6 +23,8 @@ main{
 footer{
     background-color: blue; /**/
     height: 75px;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav{
@@ -85,4 +87,16 @@ nav{
     height: 75px;
     padding: 0 10px;
     display: flex;
+}
+
+.menu-footer{
+    background-color: cadetblue;
+    width: 300px;
+    height: 75px;
+}
+
+.btn-footer{
+    background-color: orange;
+    width: 120px;
+    height: 75;
 }
