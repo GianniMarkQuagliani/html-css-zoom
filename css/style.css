@@ -77,3 +77,12 @@ nav{
     margin: 5px 0;
     width: calc( ( 100% / 7 ) - 10px );
 }
+
+/* FOOTER  */
+.audio-video{
+    background-color: yellow;
+    width: 120px;
+    height: 75px;
+    padding: 0 10px;
+    display: flex;
+}
