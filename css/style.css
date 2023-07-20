@@ -25,6 +25,12 @@ footer{
     height: 75px;
 }
 
+nav{
+    background-color: white; /**/
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* HEADER  */
 #sp-view{
     background-color: blueviolet; /**/
