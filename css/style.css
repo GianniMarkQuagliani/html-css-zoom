@@ -11,3 +11,9 @@ header{
     background-color: black;
     height: 50px;
 }
+
+main{
+    width: 100%;
+    background-color: red;
+    height: calc(100vh - 180px);
+}
