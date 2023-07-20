@@ -15,5 +15,10 @@ header{
 main{
     width: 100%;
     background-color: red;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 120px);
+}
+
+footer{
+    background-color: blue;
+    height: 75px;
 }
