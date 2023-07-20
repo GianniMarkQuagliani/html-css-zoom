@@ -21,11 +21,10 @@ nav{
 }
 
 main{
+    background-color: black;
     width: 100%;
-    background-color: red; /**/
     height: calc(100vh - 120px);
-    display: flex;
-    justify-content: flex-end;
+    overflow-y: auto;
 }
 
 footer{
@@ -35,8 +34,9 @@ footer{
     justify-content: space-between;
 }
 
-
-
+img{
+    width: 100%;
+}
 /* HEADER  */
 .sp-view{
     background-color: grey; 
@@ -62,7 +62,6 @@ footer{
     justify-content: space-between;
     height: 100%;
     width: 100%;
-    background-color: green; /**/
 }
 
 .card{
@@ -73,6 +72,19 @@ footer{
     border: 1px solid black; /**/
     margin: 5px 0;
     width: calc( ( 100% / 7 ) - 10px );
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+}
+
+.micro{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+
 }
 
 /* FOOTER  */
