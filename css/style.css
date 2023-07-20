@@ -16,17 +16,43 @@ main{
     width: 100%;
     background-color: red; /**/
     height: calc(100vh - 120px);
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer{
     background-color: blue; /**/
     height: 75px;
 }
+
+/* HEADER  */
+#sp-view{
+    background-color: blueviolet; /**/
+    padding: 8px;
+    border-radius: 10px;
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sp-view2{
+    background-color: blueviolet; /**/
+    padding: 8px; /**/
+    border-radius: 10px; /**/
+    margin: 0 5px; /**/
+    display: inline-block; /**/
+    vertical-align: middle; /**/
+}
+
+
+
+/* MAIN  */
 .container{
     width: 80%;
     margin: 0 auto;
     padding: 20px;
 }
+
 .cards{
     display: flex;
     flex-wrap: wrap;
