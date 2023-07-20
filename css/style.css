@@ -36,7 +36,7 @@ main{
 
 footer{
     background-color: #222;
-    height: 75px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -113,33 +113,26 @@ a{
     display: flex;
 }
 
-.menu-footer{
-    background-color: cadetblue;
-    width: 300px;
-    height: 75px;
-}
-
-.btn-footer{
-    background-color: orange;
-    width: 120px;
-    height: 75;
-}
-
-footer ul, i li, a{ 
+footer ul{
     list-style-type: none;
     display: flex;
-    text-align: center;
     color: white;
     font-size: 12px;
-    padding-bottom: 5px;
-    margin: 0 5px;
-    margin-bottom: 5px;
+    text-align: center;
+    padding: 15px;
+}
+
+footer li{
+    margin: 0 7px;
 }
 
 footer .arrow {
     align-self: center
 }
 
+footer span{
+    display: block;
+}
 .green{
     color: green;
 }
