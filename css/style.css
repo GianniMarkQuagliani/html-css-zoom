@@ -12,6 +12,14 @@ header{
     height: 50px;
 }
 
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+    font-size: 12px;
+}
+
 main{
     width: 100%;
     background-color: red; /**/
@@ -27,32 +35,19 @@ footer{
     justify-content: space-between;
 }
 
-nav{
-    background-color: white; /**/
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 /* HEADER  */
-#sp-view{
-    background-color: blueviolet; /**/
+.sp-view{
+    background-color: grey; 
     padding: 8px;
     border-radius: 10px;
     margin: 0 5px;
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
+    color: white;
 }
-
-#sp-view2{
-    background-color: blueviolet; /**/
-    padding: 8px; /**/
-    border-radius: 10px; /**/
-    margin: 0 5px; /**/
-    display: inline-block; /**/
-    vertical-align: middle; /**/
-}
-
-
 
 /* MAIN  */
 .container{
